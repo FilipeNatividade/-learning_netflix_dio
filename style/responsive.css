@@ -1,0 +1,22 @@
+@media screen and (max-width: 700px) {
+  header .container {
+    flex-direction: column;
+  }
+  .button {
+    margin: 0;
+    margin-top: 15px;
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 570px) {
+  .main-movie {
+    background-position-x: 0;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .main-movie .description {
+    width: 50%;
+  }
+}
